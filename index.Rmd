@@ -2,7 +2,7 @@
 title: "summary"
 author: "Emilio M. Bruna"
 date: "2/12/2022"
-output: html
+output: html_document
 ---
 
 <!-- ```{r setup, include=FALSE} -->
