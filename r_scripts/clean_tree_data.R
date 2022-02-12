@@ -16,7 +16,7 @@ trees<-read_csv("./data_raw/mccarty_20221202.csv") %>%
   mutate(across(.cols = c(stem_1:stem_3), as.numeric))
 
 trees$tag_number <- factor(trees$tag_number, ordered = TRUE)
-
+write_csv(trees, "./data_clean/mccarty_trees_20221202_wide.csv")
 trees %>% 
   select(common_name, genus,species) %>% 
   group_by(common_name, genus,species) %>% 
@@ -44,6 +44,6 @@ summary(trees_long)
 
 # save clean data as csv --------------------------------------------------
 
-write_csv(trees_long, "./data_clean/mccarty_trees_20221202.csv")
+write_csv(trees_long, "./data_clean/mccarty_trees_20221202_long.csv")
 
 
