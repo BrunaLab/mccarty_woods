@@ -2,7 +2,7 @@
 title: "summary"
 author: "Emilio M. Bruna"
 date: "2/12/2022"
-output: rmdformats::downcute
+output: html
 ---
 
 ```{r setup, include=FALSE}
