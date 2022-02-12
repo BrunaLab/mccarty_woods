@@ -17,6 +17,14 @@ trees<-read_csv("./data_raw/mccarty_20221202.csv") %>%
 
 trees$tag_number <- factor(trees$tag_number, ordered = TRUE)
 
+trees %>% 
+  select(common_name, genus,species) %>% 
+  group_by(common_name, genus,species) %>% 
+  summarize(count=n()) %>% 
+  arrange(desc(count))
+
+  
+
 # convert to long format --------------------------------------------------
 
 trees_long<-trees %>% pivot_longer(stem_1:stem_3,
@@ -37,3 +45,5 @@ summary(trees_long)
 # save clean data as csv --------------------------------------------------
 
 write_csv(trees_long, "./data_clean/mccarty_trees_20221202.csv")
+
+
