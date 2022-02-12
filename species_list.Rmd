@@ -1,7 +1,6 @@
 ---
 title: "Species List"
 layout: page 
-date: "2/12/2022"
 permalink: /mccarty_woods/species-list
 ---
 
@@ -13,8 +12,6 @@ library(rmdformats)
 library(kableExtra)
 ```
 
-## McCarty Woods - Tree Planting 
-### 12 February 2022
 
 These trees were transplanted into McCarty Woods by a team of volunteers in Feb 2012.
 
