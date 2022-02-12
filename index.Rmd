@@ -1,10 +1,3 @@
----
-title: "summary"
-author: "Emilio M. Bruna"
-date: "2/12/2022"
-output: rmdformats::downcute
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
