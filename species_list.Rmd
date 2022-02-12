@@ -1,8 +1,8 @@
 ---
 title: "Species List"
-layout: template 
+layout: page 
 date: "2/12/2022"
-filename: species_list
+permalink: /mccarty_woods/species-list
 ---
 
 
