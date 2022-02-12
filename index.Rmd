@@ -1,9 +1,10 @@
----
-title: "index"
-author: "Emilio M. Bruna"
-date: "2/12/2022"
-output: html_document
----
+
+<!-- --- -->
+<!-- title: "index" -->
+<!-- author: "Emilio M. Bruna" -->
+<!-- date: "2/12/2022" -->
+<!-- output: html_document -->
+<!-- --- -->
 
 
 test
