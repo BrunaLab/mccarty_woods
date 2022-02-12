@@ -1,7 +1,7 @@
 ---
 title: "Species List"
 layout: page 
-permalink: /mccarty_woods/species-list2
+permalink: /species-list2
 ---
 
 test

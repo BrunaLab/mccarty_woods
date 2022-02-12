@@ -1,7 +1,7 @@
 ---
 title: "Species List"
 layout: page 
-permalink: BrunaLab/mccarty_woods/species
+permalink: /species
 ---
 
 test
